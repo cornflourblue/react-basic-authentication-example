@@ -7,13 +7,15 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open",
-	"build": "webpack-cli"	
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "deploy-dev": "webpack-cli --config webpack.dev.js",
+	"deploy-prod": "webpack-cli --config webpack.prod.js"
   },
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-router-dom": "^4.1.2"
+    "react-router-dom": "^4.1.2",
+    "webpack-merge": "^5.8.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
