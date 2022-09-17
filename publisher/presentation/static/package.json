@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cornflourblue/react-basic-authentication-example.git"
+    "url": "https://github.com/kernja/aws-nlayer-solution"
   },
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+	"build": "webpack-cli"	
   },
   "dependencies": {
     "react": "^16.0.0",
