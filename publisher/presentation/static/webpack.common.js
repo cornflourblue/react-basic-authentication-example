@@ -19,7 +19,9 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'https://bnr.network/api/v1'
+            apiUrl: 'https://api.bnr.network/v1',
+			authEndpoint: 'getToken',
+			userEndpoint: 'users'
         })
     }
 }
